@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Noto+Sans+Display:wght@200&family=Sacramento&display=swap');
+*{
+   
+    margin: 0;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration:none;
+    overflow: overlay;
+    
+} 
+/* header/logo bar */
+.header-bar{
+ background-color: #223141;
+    position:sticky;
+    top:0;
+    left:0; 
+    width: 100%;
+    z-index: 3;
+    overflow: visible;
+    height:auto;
+    
+}
+
+.logo-bar
+{
+    padding: 10px 10vw;
+    display:flex;
+    justify-content: space-between ;   
+}
+
+ .brand-logo {
+    padding-left: 0 10px;
+    font-weight: bold;
+    text-overflow: visible;;
+    margin-bottom: 0%;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size:35px; 
+    color: #e3eeee; 
+}
+
+.logo-head{
+    padding-top:0px;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+  
+}
+ .seperate-item  {
+   display: flex;
+   align-items: center;
+  
+} 
+
+.search-bar{
+    width: 500px;
+    display: flex;
+  
+}
+
+.search-box{
+    width: 50%;
+    height: 40px;
+    padding:10px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    border: 1px solid #e3eeee;  
+    text-transform: capitalize;
+    background: whitesmoke; 
+    color:#111111;
+    outline:none;
+    margin-left: 10px  ;
+}
+
+.search-btn
+{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    cursor:pointer;
+    border:none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline:none;
+    text-transform: capitalize;
+    text-decoration:none;
+    background: #7c7c7c;
+    color: #fff;
+    font: size 15px; 
+}
+
+.search-box::placeholder{
+    color: rgb(67, 76, 76)
+}
+ .nav-wap{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+ }
+.nav-wap ul.nav-list{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-overflow:visible;
+    margin-right:10px;
+    
+
+ }
+ .nav-wap ul.nav-list li a {
+    text-decoration:none ;
+    color: #efe6e8;  
+ }
+ .nav-wap ul.nav-list li a:hover {
+ 
+    color: #D35400;  
+ }
+
+  .register-sign-in-btn{
+    font-size:14px;
+    height: 40px;
+ padding: 8px 20px;
+ cursor:pointer;
+ border:none;
+ border-radius: 10px;
+ outline:none;
+ text-transform: capitalize;
+ text-decoration:none;
+ background:#D35400;
+ color: #fff;
+ margin-left: 20px;
+
+ }
+
+ .register-sign-in-btn:hover{
+    background: transparent;
+    border : 1px solid ;
+ }
+ @media screen and (min-width:480px) and (max-width: 767px){
+ .register-sign-in-btn{
+        width: 20px;
+    }
+    .hero-header h2{
+        font-size: 40px;
+    }
+    .login {
+      margin-left: 40%;
+    }
+}
+/* top navigation bar */
+
+ #list-container- li {   
+     background-color: #f4f3f2f0;
+    }
+.list-container
+ {
+   border:1px solid rgb(255, 255, 255);
+    width :100%;
+    height: 60px;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+   align-items: center;    
+} 
+.link {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    color: #ffffff;
+    font-size:25px;
+    opacity:0.5 ; 
+    list-style: none; 
+    transition:0.5s;  
+}
+ 
+.list-container  a:hover,
+.list-container  a.active{
+    color: #efe6e8;
+}
+.list-container li a:hover
+
+{
+    opacity: 0.4;
+    background: #5d5d5d45;
+    color: #ece4e4;
+    
+}
+
+
+  .hero{
+    height: 80vh;
+    width: 100vw;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5) ), url(/img/pexels-fausto-hernández-11491782.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-header{
+    margin-top: 150px;
+}
+.hero-header h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-head{
+    color:#D35400;
+   display:flex;
+   justify-content: center;
+}
+.more{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+ 
+}
+#btns{
+    background-color: #D35400;
+    border: 5px solid #D35400;
+    width: 150px;
+    height: 50px;
+}
+#btns:hover{
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+}
+.who {
+    text-align: center;
+    padding-top: 8%;
+    color: #223141;
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .say {
+    margin-top: 15px;
+  }
+  
+  .wassup {
+    padding-bottom: 5%;
+    color: black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .login {
+    margin-left: 45%;
+  }
+  
+  .guide{
+    color: #D35400;
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+  }
+  #about {
+    background-image: linear-gradient(to right top, #dfe8f1, #E1E4E6, #DDE1E3, #D9DEDF, #D5DBDB);
+    padding-bottom: 30px;
+  }
+  @media screen and (min-width:480px) and (max-width: 767px){
+    .scroll-down{
+        top: 10vh;
+    }
+    .hero-header h2{
+        font-size: 40px;
+    }
+    .login {
+      margin-left: 40%;
+    }
+}
+#afterten {
+    background-image: linear-gradient(to right top, #E5E7E9, #E1E4E6, #DDE1E3, #D9DEDF, #D5DBDB);
+    padding-bottom: 30px;
+    width: 50vw;
+    padding: 10px 15px;
+  }
+  #after12
+    {
+      border-right: 1px solid #D35400;
+        background-image: linear-gradient(to right top, #E5E7E9,  #dfe8f1, #DDE1E3, #D9DEDF, #D5DBDB);
+        padding-bottom: 30px;
+        width: 50vw;
+      }
+      .mixed-sec{
+        display: flex;
+      }
+  #afterug {
+        background-image: linear-gradient(to right top, #E5E7E9,#dfe8f1, #DDE1E3, #D9DEDF,  #D5DBDB);
+        padding-bottom: 30px;
+      }
+   #afterpg {
+    background-image: linear-gradient(to right top, #E5E7E9, #E1E4E6,#dfe8f1, #D9DEDF, #D5DBDB);
+    padding-bottom: 30px;
+  }
+  #gvt-ex {
+    background-image: linear-gradient(to right top, #E5E7E9, #E1E4E6, #DDE1E3, #D9DEDF,#dfe8f1);
+    padding-bottom: 30px;
+  }
+  .foot{
+    background-color: #223141;
+    margin-bottom: 0px;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    justify-content:space-evenly;
+   font-size: 20px;
+    color: #D9DEDF;
+ 
+  
+  }
+  .foota{
+    color: #dfe8f1;
+  }

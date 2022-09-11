@@ -1,0 +1,104 @@
+
+    body{
+        box-sizing: border-box;
+        }
+        .main-su-container
+        {
+        text-decoration: none;
+        background:linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5 )), url(/img/pexels-pavel-danilyuk-7944061.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;    
+            height: 100vh;    
+        height: 100vh;    
+        }
+        .blur-img{
+          background: rgba(57, 52, 52,0.5);
+          backdrop-filter: blur(15px);
+          position: absolute;
+          height: 100vh;
+          width: 100%;
+          z-index: 1;
+        }
+        .form
+        {
+            color: crimson;
+        }
+        .main-su-container h1 
+        {
+            margin: 20px;
+            position: relative;
+            z-index: 1;
+            color: antiquewhite;
+        }
+         .signup-container
+         {
+           
+          position: absolute;
+            z-index: 2;
+            border: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            width: 70vw;
+            height: 80vh; 
+            margin-top: 15px;
+            margin-bottom: 30px; 
+            margin-left:10vw ;
+            border-radius: 20px;
+        }
+        .signup
+        {
+            display: flex;
+            justify-content: left;
+            align-items:initial;
+            flex-direction:column; 
+        }
+        .pass,.username,.Qualification,
+        .email,.cpass
+        {
+    
+            font-size: 15px;
+            padding: 13px;
+            border:  2px solid whitesmoke;
+            margin-bottom: 5px;
+            font-size: medium;
+            border: 0.01px solid olive;
+            margin-bottom: 10px;
+        }
+        input{
+          width: 50vw;
+        }
+      
+        .sub-button
+        {
+            border-style: hidden;
+            margin-top: 10px;
+            font-size: 20px;
+            padding: 5px;
+            background-color:  olive;
+            outline: none;
+        }
+        .sub-button:hover
+        {
+            background-color: darkgreen ;
+        }
+        .abs-div
+        {
+            width: 50px; 
+            height: 50px;
+            background-color: white;
+        }
+        .form-cont{
+            width:50vw;
+        }
+        .slink{
+            color:blue;
+            font-size:20px;
+        }
+     .slink:hover{
+        background-color:white;
+     }
